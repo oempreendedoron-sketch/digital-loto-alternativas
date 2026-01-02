@@ -12,7 +12,7 @@ const Hero: React.FC<HeroProps> = ({ lottery, onPlay }) => {
     <div className="bg-white rounded-2xl shadow-lg overflow-hidden my-8 p-6 md:p-8">
       <div className="flex flex-col md:flex-row items-center justify-between gap-8">
         <div className="text-center md:text-left max-w-lg">
-            <h1 className="text-3xl md:text-4xl font-extrabold leading-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-teal-400 via-green-500 to-yellow-400">
+            <h1 className="text-3xl md:text-4xl font-extrabold leading-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-orange-400 via-yellow-300 to-orange-400 drop-shadow-sm">
                 Com apenas R$1,00 você aposta com mais Números e pode Faturar até R$45.000,00 💰
             </h1>
              <div className="space-y-3 text-left">
